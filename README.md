@@ -34,7 +34,7 @@ My suggestion would be to have x1 (first signal to mid-base) and x2(second signa
 
 ## Suggestion v2
 
-Lastly, how are we going to catch these signals? I'd say we still need to to research on this, but my suggestion would be somewhat familiar to this: 
+Lastly, how are we going to catch these signals? I'd say we still need to do research on this, but my suggestion would be somewhat familiar to this: 
 
 S := x1 + x2 - crazyInterferanceAlgorithm(x1, x2) / c(b)
 
