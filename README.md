@@ -28,7 +28,7 @@ Now, this is the tricky part. How could we manage the intersection points? If do
 
 ##Suggestion
 
-My suggestion would be to have x1 (first signal to mid-base) and x2(second signal to mid-base) to have equal frequency. After collision, we would get interference anyway, but how we could make it not a problem needs to be correctly addressed. Maybe we could end up with something like W : = x1 + x2 / c(b) where c is the strength of the signal and b is the base exponent of the area. This would give us an indication of how we could adjust signals in accordance to area react but at the same time it could lead us to have optimization through machine learning algorithms like unsupervised learning. 
+My suggestion would be to have x1 (first signal to mid-base) and x2(second signal to mid-base) to have equal frequency. After collision, we would get interference anyway, but how we could make it not a problem needs to be correctly addressed. Maybe we could end up with something like W : = x1 + x2 / c(b) where c is the strength of the signal and b is the base exponent of the area. This would give us an indication of how we could adjust signals in accordance to area, but at the same time it could lead us to have optimization through machine learning algorithms like unsupervised learning. 
 
 ***
 
@@ -36,5 +36,5 @@ My suggestion would be to have x1 (first signal to mid-base) and x2(second signa
 
 Lastly, how are we going to catch these signals? I'd say we still need to to research on this, but my suggestion would be somewhat familiar to this: 
 
-S := x1 + x2 - interferance(x1+x2) / c(b)
+S := x1 + x2 - crazyInterferanceAlgorithm(x1, x2) / c(b)
 
